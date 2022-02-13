@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:state_managment/provider/view/counter_view.dart';
 
+import 'bubby_code/buggy_screen.dart';
 import 'getx/view/getx_view.dart';
 
 void main() {
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: GetXView(),
+      home: const BuggyScreen(),
     );
   }
 }
