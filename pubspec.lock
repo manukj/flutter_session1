@@ -43,6 +43,15 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.15.0"
+  container_package:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: main
+      resolved-ref: "074703c6b0e611de483575510a8e321e380367fb"
+      url: "https://github.com/manukj/creative_container"
+    source: git
+    version: "0.0.1"
   cupertino_icons:
     dependency: "direct main"
     description:
@@ -186,4 +195,4 @@ packages:
     version: "2.1.1"
 sdks:
   dart: ">=2.15.1 <3.0.0"
-  flutter: ">=1.16.0"
+  flutter: ">=1.17.0"
